@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpalshScreen">
+
+
+
+    <ImageView
+        android:id="@+id/img_spalshlogo"
+        android:layout_width="251dp"
+        android:layout_height="305dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="96dp"
+        android:rotation="-8"
+        android:rotationX="-8"
+        android:rotationY="4"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/spalshlogo"
+        android:backgroundTint="@color/purple_200"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_devby"
+        android:layout_below="@id/img_spalshlogo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="104dp"
+        android:text="Developed by"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_devby"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:text="~Vivekanand Pandey"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="366dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-35dp"
+        android:paddingTop="50dp"
+        android:text="CALCULATOR"
+        android:textColor="@color/purple_200"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
