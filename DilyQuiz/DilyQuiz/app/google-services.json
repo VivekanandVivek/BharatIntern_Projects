@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342060064080",
+    "project_id": "dailyquiz-55042",
+    "storage_bucket": "dailyquiz-55042.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342060064080:android:3c75e44502490442366055",
+        "android_client_info": {
+          "package_name": "com.vivek.dilyquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342060064080-cf51itl3dfikiog0biq81mitdk091ki9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUnw0OFTcQYZFzFannHVbFkPWGbW9udU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342060064080-cf51itl3dfikiog0biq81mitdk091ki9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
